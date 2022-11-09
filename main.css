@@ -1,0 +1,151 @@
+*{
+  box-sizing: border-box;
+}
+
+.form-start{
+  display: block;
+  min-width: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.level{
+  width: 200px !important;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid rgb(0, 17, 255);
+  border-radius: 20px;
+}
+.time{
+  width: 200px !important;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid rgb(0, 17, 255);
+  border-radius: 20px;
+}
+
+ 
+
+.btn-box{
+  width: 60px !important;
+
+}
+.gazz{
+  display: block;
+  margin-top: 10px;
+  padding: 10px;
+}
+.list{
+  
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.itms{
+  max-width: 200px;
+  height: 150px;
+  margin-right: 15px;
+  margin-top: 25px;
+  padding: 10px;
+  background: #000;
+}
+@media (min-width: 576px){
+  .modal-dialog {
+    max-width: 1000px !important;
+    margin: 3.75rem auto !important;
+  }
+}
+ 
+.img{
+  display: block;
+  width: 180px;
+  height: 130px;
+  
+}
+
+.democlass{
+   visibility: hidden;
+}
+
+.main{
+  min-width: 100vh;
+min-height: 100vh;
+padding-top: 200px;
+  /* padding-top: 38vh;
+ padding-bottom: 40vh; */
+background-image: url("/images/back-to-future.jpg");
+background-size:  cover;
+background-repeat: no-repeat;
+
+}
+
+.box-achkolar{
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+text-align: center;
+}
+
+.time-sekunt{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+margin-top: 2px;
+width: 55px;
+padding: 5px;
+border: 2px solid blue;
+border-radius: 40px;
+color: red;
+background: #000;
+
+}
+
+.modal-content {
+  min-height: 100vh;
+background: none !important; 
+  /* background-image: url("/images/back-to-future.jpg") !important; */
+
+}
+
+.btn-close{
+  width: 20px  ;
+height: 20px  ;
+  background-image: url("/images/replay1.svg") !important;
+  background-repeat: no-repeat;
+}
+
+.dead{
+  display: block;
+  min-width: 100vh;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+background-image: url("/images/gameover.webp");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  /* background: #fff; */
+}
+
+.win{
+  display: block;
+  background-image: url("/images/win.webp");
+}
+
+
+
+.refreshBtn{
+  width: 50px;
+  height: 50px;
+  background-image: url("/images/replay.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}

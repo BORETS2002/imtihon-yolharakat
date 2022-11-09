@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/main.css">
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+  crossorigin="anonymous"
+  />
+  <title>Yo'l harakat qoidalari</title>
+</head>
+<body>
+  <main>
+    
+    <section class="main">
+      
+      <div class="container">
+        
+        
+        <form class="form-start    " autocomplete="off" from="#chek">
+          <div class=" box-select ">
+            
+            <select class="level d-block  mb-2" name="level"  >
+             
+              <option value="yengil">Yengil</option>
+              <option value="orta">O'rta</option>
+              <option value="qiyin">Qiyin</option>
+            </select>
+            
+            <select class="time " name="time" required  >
+              <option value="3">3 min</option>
+              <option value="5">5 min</option>
+              <option value="8">8 min</option>
+            </select>
+            
+          </div>
+          
+          
+          <div class="btn-box">
+            <button id="chek" type="submit" class=" btn-primary gazz"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              gazz
+            </button>
+            
+          </div>
+          
+        </form>
+        
+        <!-- Button trigger modal -->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="mx-auto">
+
+                  <div class="box-urinishlar">
+                    <p class="m-0  text-center  text-white">
+                      Urinishlar soni : <span class="urinish"></span>
+                    </p>
+                  </div>
+                  <div class="box-achkolar" >
+                    <p class="m-0 text-white">
+                      Achkolar : <span class=" achko"></span>
+                    </p>
+                  </div>
+                  <time class="time-sekunt   "></time>
+                  <br>
+                  
+                  
+                  <h3 class="title  text-white"> </h3>
+                  
+                  
+                </div>
+                
+                
+                <button type="button" class="btn-close m-0" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              
+              <ul class="list list-unstyled  ">
+                
+              </ul>
+              <div class="d-none Natija dead">
+                <div class="box-achkolar" >
+                  <p class="m-0 text-white">
+                    Achkolar : <span class="winachko"></span>
+                  </p>
+                </div>
+                <div class="box-urinishlar">
+                  <p class="m-0  text-center  text-white">
+                    Urinishlar soni : <span class=" winUrinsh"></span>
+                  </p>
+                </div>
+                <button type="submit" class="refreshBtn btn d-block mx-auto mt-2"> </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      <template class="template">
+        <li class="itms" >
+          <img class="img"  width="100%" height="100%" src="" alt="">  
+        </li>
+        
+      </template>
+    </section>
+  </main>
+  
+  
+  <script src="/signs.js"></script>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"
+  ></script>
+  <script src="/main.js"></script>
+</body>
+</html>
